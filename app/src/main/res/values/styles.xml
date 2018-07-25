@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorToolBar</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+        <item name="android:statusBarColor">@color/colorStatusBar</item>
+
+        <item name="android:alertDialogTheme">@style/AppTheme.Dialog</item>
+    </style>
+
+    <style name="AppTheme.Dialog" parent="AppTheme">
+        <item name="colorAccent">@android:color/holo_blue_dark</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/holo_blue_light</item>
+
+        <item name="buttonBarPositiveButtonStyle">@drawable/dialogbutton</item>
+        <item name="buttonBarNegativeButtonStyle">@drawable/dialogbutton</item>
+    </style>
+
+    <style name="AppTheme.Dialog.List" parent="AppTheme">
+        <item name="colorAccent">@android:color/holo_blue_dark</item>
+        <item name="android:background">@drawable/underline_simple</item>
+        <item name="android:textColorPrimary">@android:color/holo_blue_light</item>
+    </style>
+
+
+
+    <style name="CustomSpots" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">connecting…</item>
+        <item name="DialogSpotColor">@android:color/holo_orange_dark</item>
+        <item name="DialogSpotCount">4</item>
+    </style>
+
+</resources>
